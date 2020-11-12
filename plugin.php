@@ -8,9 +8,9 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->hook->on("template:layout:css", array("template" => "plugins/Css/skin.css"));
+        return 'Nothing';
     }
-
+    
     public function getPluginName()
     {
         return 'MyPlugin';
@@ -23,12 +23,12 @@ class Plugin extends Base
 
     public function getPluginAuthor()
     {
-        return 'Author';
+        return 'Barbora';
     }
 
     public function getPluginVersion()
     {
-        return '0.0.1';
+        return '1.0.0';
     }
 
     public function getPluginHomepage()
